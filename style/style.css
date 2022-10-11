@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+body{
+    background-color: rgb(87, 150, 231);
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #4337f0;
+    color: white;
+    font-size: 30px;
+  }
+
+.navbar {
+    width: 100%;
+    background-color: rgb(119, 119, 241);
+    overflow: auto;
+  }
+  
+
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+  }
+  
+ 
+  .navbar a:hover {
+    background-color: rgb(0, 57, 131);
+  }
+  
+ 
+  .active {
+    background-color: #31b7ec;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+
+  .mySlides {
+    margin-top: 20px;
+    display: none;
+  }
+  
+ 
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+ 
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+ 
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .pirveli{
+    font-size: 30px;
+    background-color: #56c5d8;
+    width: 100%;  
+    padding-bottom: 10px;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(53, 58, 56);
+    color: white;
+    text-align: center;
+    height: 100px;
+    font-size: 40px;
+    color: rgb(212, 45, 45);
+
+  }
+  .c{
+    font-size: 30px;
+    color: rgb(67, 201, 67);
+  }
+.numb{
+    font-size: 20px;
+}
+.fotoo{
+  
+    float: left;    
+     margin: 0 15px 0 0;
+     border: dashed red;
+     margin: 15px;
+    
+}
+.sataur{
+  text-align: center;
+}
+.sityva{
+  background-color: rgb(108, 145, 214);
+}
+.filial{
+  margin-left: 45px;
+  font-size: 34px;
+}
+h5{
+  font-size: 20px;
+}
+.mapi{
+  margin: 20px;
+  border: solid burlywood;
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+  width: 5%;
+  border-radius: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
